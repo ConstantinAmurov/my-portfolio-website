@@ -7,12 +7,11 @@ import { TextLoop } from '@/components/motion/text-loop';
 
 const heroContent = [
   { role: 'developer', action: 'code', emoji: '💻', bgColor: 'bg-green-100' },
-  { role: 'gamer', action: 'win', emoji: '🎮', bgColor: 'bg-blue-100' },
-  { role: 'thinker', action: 'solve', emoji: '🤔', bgColor: 'bg-yellow-100' },
+  { role: 'problem solver', action: 'debug', emoji: '🛠️', bgColor: 'bg-gray-100' },
+  { role: 'thinker', action: 'optimize', emoji: '🧠', bgColor: 'bg-yellow-100' },
   { role: 'learner', action: 'grow', emoji: '📚', bgColor: 'bg-purple-100' },
   { role: 'creator', action: 'build', emoji: '✨', bgColor: 'bg-pink-100' },
-  { role: 'teammate', action: 'collab', emoji: '🤝', bgColor: 'bg-orange-100' },
-  { role: 'fixer', action: 'repair', emoji: '🛠️', bgColor: 'bg-gray-100' }
+  { role: 'gym goer', action: 'lift', emoji: '🏋️', bgColor: 'bg-red-100' },
 ];
 
 const textLoopVariants = {
@@ -25,7 +24,7 @@ const textLoopTransition = {
   type: 'spring',
   stiffness: 900,
   damping: 80,
-  mass: 10
+  mass: 10,
 };
 
 function Hero() {
@@ -86,16 +85,16 @@ function Hero() {
       </div>
 
       <ParallaxImage
-        src="/images/hero.jpg"
+        src="/images/IMG_0919.JPG"
         containerRef={container}
         alt="Hero image"
-        containerClassName="aspect-[4/2] w-screen lg:mt-28"
+        containerClassName="aspect-video w-screen lg:mt-28 "
         priority
         parallaxOptions={{
           yStart: '-10%',
           yEnd: '10%',
           scaleStart: 1,
-          scaleEnd: 1.5
+          scaleEnd: 2
         }}
       />
     </section>

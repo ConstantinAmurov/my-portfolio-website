@@ -1,28 +1,32 @@
 import { Skill } from '@/types/skill';
 
-const trimLen: number = -1; // 0 is accordion only, -1 is does not restrict the length
+const trimLen: number = -1;
 
 const skills: Skill[] = [
   {
+    name: 'Software Engineering',
+    thumbnail: '/images/skills/software-engineering.jpg',
+    description: `I specialize in building scalable web systems and creating robust architectures for integrations. I focus on front-end development with React.js and Next.js while collaborating closely with back-end teams for smooth service communication.`
+  },
+  {
     name: 'Web Development',
-    // todo: use proper thumbnail pics
     thumbnail: '/images/skills/web-development.jpg',
-    description: `Web Development involves creating websites and web applications that are both visually appealing and highly functional. It encompasses a variety of technologies, frameworks, and best practices to ensure a seamless user experience and efficient performance.`
+    description: `I develop responsive, user-friendly web applications with TypeScript, React.js, and GraphQL, optimizing front-end performance and ensuring seamless user experiences.`
   },
   {
-    name: 'UI/UX Design',
-    thumbnail: '/images/skills/ui-ux-design.jpg',
-    description: `UI/UX Design focuses on creating delightful user experiences through visually appealing and highly functional designs. This skill includes a variety of technologies, frameworks, and best practices to enhance user satisfaction and usability.`
+    name: 'Back-End Development',
+    thumbnail: '/images/skills/back-end-development.jpg',
+    description: `I build and maintain server-side systems using Node.js and Laravel, optimizing APIs and ensuring performance, including real-time data handling with GraphQL.`
   },
   {
-    name: 'Database Management',
-    thumbnail: '/images/skills/database-management.jpg',
-    description: `Database Management involves efficiently storing and organizing data. This skill covers a range of technologies, frameworks, and best practices to ensure data integrity, security, and performance.`
+    name: 'Architecture & Integration',
+    thumbnail: '/images/skills/integration.jpg',
+    description: `I design scalable systems and integrations, such as Adyen payment systems, ensuring smooth data flow and performance.`
   },
   {
-    name: 'Mobile Development',
-    thumbnail: '/images/skills/mobile-development.jpg',
-    description: `Mobile Development entails crafting apps for smartphones and tablets that are both visually appealing and highly functional. It includes a variety of technologies, frameworks, and best practices to provide a seamless user experience on mobile devices.`
+    name: 'Leadership & Collaboration',
+    thumbnail: '/images/skills/leadership.jpg',
+    description: `I lead several teams, mentor junior developers, conduct code reviews, and collaborate with stakeholders to ensure alignment with project goals.`
   }
 ];
 
