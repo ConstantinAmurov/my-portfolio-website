@@ -24,7 +24,7 @@ export default function Home() {
           <Skills />
           <Projects />
           <Experience />
-          <Testimonials />
+          {process.env.NEXT_PUBLIC_TESTIMONIALS_ENABLED === 'true' && <Testimonials />}
           <Contact />
         </main>
         <footer>

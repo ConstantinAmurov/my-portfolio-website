@@ -11,7 +11,7 @@ const NotFoundPage: React.FC = () => {
 
   return (
     <div
-      className="relative flex min-h-[100dvh] items-center justify-center overflow-hidden bg-[#efefef]"
+      className="relative flex min-h-[100dvh] items-center justify-center overflow-hidden"
       ref={containerRef}
     >
       <div className="z-30 flex flex-col items-center justify-center gap-4">
@@ -33,10 +33,10 @@ const NotFoundPage: React.FC = () => {
           key={index}
           speed={1}
           startPosition={{ x: index * 3, y: index * 3 }}
-          startAngle={40}
+          startAngle={30}
           containerRef={containerRef}
         >
-          <div className="h-20 w-20 overflow-hidden md:h-48 md:w-48">
+          <div className="h-5 w-5 overflow-hidden md:h-48 md:w-48">
             <img
               src={image}
               alt={`Example ${index + 1}`}

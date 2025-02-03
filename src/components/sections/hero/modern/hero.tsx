@@ -11,7 +11,6 @@ const heroContent = [
   { role: 'thinker', action: 'optimize', emoji: '🧠', bgColor: 'bg-yellow-100' },
   { role: 'learner', action: 'grow', emoji: '📚', bgColor: 'bg-purple-100' },
   { role: 'creator', action: 'build', emoji: '✨', bgColor: 'bg-pink-100' },
-  { role: 'gym goer', action: 'lift', emoji: '🏋️', bgColor: 'bg-red-100' },
 ];
 
 const textLoopVariants = {
@@ -88,13 +87,13 @@ function Hero() {
         src="/images/IMG_0919.JPG"
         containerRef={container}
         alt="Hero image"
-        containerClassName="aspect-video w-screen lg:mt-28 "
+        containerClassName="aspect-video w-screen lg:mt-28"
         priority
         parallaxOptions={{
-          yStart: '-10%',
+          yStart: '0%',
           yEnd: '10%',
           scaleStart: 1,
-          scaleEnd: 2
+          scaleEnd: 1.5
         }}
       />
     </section>

@@ -27,7 +27,7 @@ function About() {
               </TextReveal>
               <div className="flex gap-2">
                 <Button asChild variant={'outline'}>
-                  <a href="Constantin Amurov's Resume.pdf" target="_blank">
+                  <a href="resume.pdf" target="_blank">
                     View Resume <ArrowUpRightIcon className="ml-2 size-5" />
                   </a>
                 </Button>

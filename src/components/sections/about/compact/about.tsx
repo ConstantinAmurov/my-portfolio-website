@@ -16,10 +16,7 @@ function About() {
             </h2>
             <div className="space-y-4">
               <p className="max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I am a passionate and creative Web Developer with a love for
-                beautiful and functional websites. I have experience working
-                with a variety of web technologies and frameworks and I am
-                always eager to learn new things and take on new challenges.
+                I`m a passionate web developer who thrives on bringing creative and practical ideas to life. I love exploring new technologies, solving problems, and building websites that are not only functional but also a joy to interact with. I`m always pushing myself to learn more, take on fresh challenges, and grow in every project I dive into.
               </p>
               <div className="flex gap-2">
                 <Button asChild variant={'outline'}>

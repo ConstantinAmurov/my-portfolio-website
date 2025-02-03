@@ -84,7 +84,7 @@ export default function ProjectsPage(): React.ReactElement {
             description={project.data.description}
             key={`project_${index}`}
             tags={project.data.tags}
-            thumbnail={`/images/projects/${project.slugs[0]}/cover.jpg`}
+            thumbnail={`/images/projects/${project.slugs[0]}/cover.png`}
           />
         ))}
       </section>
