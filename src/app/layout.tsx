@@ -12,6 +12,7 @@ import { metadata as meta } from '@/app/config';
 import Loader from '@/app/loader';
 import Providers from '@/app/providers';
 
+import { Analytics } from "@vercel/analytics/react"
 import { createMetadata } from '@/lib/metadata';
 
 // https://iamsteve.me/blog/the-best-ink-trap-typefaces-for-websites
@@ -41,6 +42,7 @@ export default function RootLayout({
           <Loader />
           {children}
           <Toaster />
+          <Analytics />
         </Providers>
       </body>
     </html>
